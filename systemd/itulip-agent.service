@@ -1,0 +1,10 @@
+[Unit]
+Description=Itulip Fedora system agent
+After=graphical-session.target
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/itulip-agent
+
+[Install]
+WantedBy=default.target

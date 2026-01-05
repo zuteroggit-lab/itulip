@@ -1,0 +1,13 @@
+{
+  "itulip_version": "string",
+  "agent_version": "string",
+  "generated_at": "ISO-8601",
+
+  "system_status": "ok | warn | error | unknown",
+
+  "boot": {},
+  "kernel": {},
+  "systemd": {},
+  "graphics": {},
+  "user_session": {}
+}
